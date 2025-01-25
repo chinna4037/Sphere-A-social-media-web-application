@@ -1,0 +1,19 @@
+.homeflex{
+    display: flex;
+    align-items:flex-start;
+    padding-right: 10px;
+    overflow-y: scroll;
+}
+.content{
+    width: 100%;
+}
+.profile{
+    max-width: 400px;
+    
+}
+
+@media (max-width:850px){
+    .profile{
+        display: none;
+    }
+}

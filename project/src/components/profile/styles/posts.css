@@ -1,0 +1,19 @@
+.posts{
+    margin-top: 15px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: var(--div-width) var(--div-width) var(--div-width);
+    grid-auto-rows: var(--div-width);
+    gap: 10px;
+}
+
+
+
+.posts .postcon,.posts .post{
+    height: var(--div-width);
+    width: var(--div-width);
+    background-color: black;
+}
+.posts .post{
+    object-fit: contain;
+}

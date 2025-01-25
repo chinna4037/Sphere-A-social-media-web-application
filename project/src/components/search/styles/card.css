@@ -1,0 +1,42 @@
+.flex{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 10px;
+    align-items: center;
+    margin: 10px auto;
+    border-bottom: 1px solid #ccc;
+    background-color: #ccc;
+}
+.flex .f2{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+#follow{
+    background-color: #007bff;
+    color: white;
+    border: 0px;
+    border-radius: 10%;
+    height: 30px;
+}
+#followed{
+    background-color: #242629;
+    color: white;
+    border: 0px;
+    border-radius: 10%;
+    height: 30px;
+}
+.flex button:hover{
+    background-color: #0056b3;
+}
+.f2 .imgCon,.f2 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.f2 img{
+    object-fit: cover;
+}

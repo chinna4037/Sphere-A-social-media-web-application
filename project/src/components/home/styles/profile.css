@@ -1,0 +1,38 @@
+.grid1{
+    justify-self: flex-end;
+    width:max-content;
+}
+.grid1{
+    background-color: white;
+    padding-top: 20px;
+    padding-right: 25px;
+    display: grid;
+    gap:7px;
+    height:fit-content;
+    width: max-content;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.grid1:hover{
+    cursor: pointer;
+}
+.f1{
+    display: flex;
+    gap:5px;
+}
+.grid1>.imgCon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.grid1 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.grid1>.imgCon{
+    grid-row: span 2; 
+}
+.grid1 img{
+    object-fit: cover;
+}

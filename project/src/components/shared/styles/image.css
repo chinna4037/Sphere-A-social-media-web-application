@@ -1,0 +1,33 @@
+.gridImg{
+    padding-left:10px ;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.imgCon > img,.gridImg >.imgCon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.imgCon > img{
+    object-fit: cover;
+}
+#iconBar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#imgConimg>#img{
+    height: 400px;
+    width: 300px;
+    border-radius: 0%;
+    object-fit: contain;
+}
+#imgConimg{
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

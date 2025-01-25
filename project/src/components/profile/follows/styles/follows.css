@@ -1,0 +1,53 @@
+.follows{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    height: 100vh;
+    width: 100vw;
+    background-color: #cccccc78;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follows .headers{
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-evenly;
+    padding-bottom: 0px;
+    cursor: pointer;
+}
+
+ .follows .headers>*{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 50%;
+    text-align: center;
+}
+
+.follows .body{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+    background-color:rgba(228, 228, 254, 0.887);
+    height: 300px;
+    width: calc(23.667px-5px);
+    overflow:scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.follows .body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.follows .body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

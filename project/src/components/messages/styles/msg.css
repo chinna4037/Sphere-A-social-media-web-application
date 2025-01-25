@@ -1,0 +1,76 @@
+.msg{
+    justify-self: flex-start;
+    display: flex;
+}
+
+.list  .listitem{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+}
+.list  .userlist{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+}
+.list >h1{
+    margin: 0px;
+    
+}
+.list >h3{
+    margin: 0px;
+    
+}
+.msg > .list{
+    border-right:1px solid #ccc;
+    padding: 0px 10px;
+    width: fit-content;
+    height: 100vh;
+}
+
+.card{
+    width: 100%;
+}
+.card:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.card {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.card .imgCon,.card img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.card img{
+    object-fit: cover;
+}
+.msg .userSelected{
+    background-color: #ccc;
+}
+
+.userlist #singlebox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userlist #singlebox:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.userlist .reddot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(235, 72, 72);
+    margin-right: 3px;
+}

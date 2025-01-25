@@ -1,0 +1,192 @@
+.ProApp {
+    font-family: sans-serif;
+  }
+  
+  .progrid>.imageContainer,.progrid .proimg {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .progrid .proimg{
+    object-fit:cover;
+    
+  }
+
+  .progrid button{
+    border: none;
+    background-color: white;
+    width: fit-content;
+    padding: 5px 10px;
+  }
+  .progrid button:hover{
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .saved button{
+    border: none;
+    background-color: white;
+    width: fit-content;
+    padding: 5px 10px;
+  }
+
+  .saved button:hover{
+    background-color: rgba(211, 200, 200, 0.638);
+    cursor: pointer;
+  }
+  
+  hr {
+    opacity: 0.7;
+  }
+  
+  svg {
+    padding-right: 10px;
+  }
+  
+  .saved {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+.progrid{
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 1fr;
+  justify-content:space-around;
+  align-items: center;
+  justify-items: center;
+}
+
+.progrid h4{
+  font-size: 1.2em;
+}
+
+.ProApp .prousername{
+  font-size: 1.4em;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ProApp .proname{
+  font-weight: 300;
+  font-size: 1.1em;
+}
+
+.ProApp .bio .heading{
+  font-size: 1.1em;
+  font-weight: 550;
+}
+
+.ProApp .bio .content textarea{
+  width: 100%; 
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+textarea :focus{
+  border: none;
+}
+
+#changephoto{
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+  gap: 40px;
+  background-color: white;
+  padding: 20px;
+
+}
+#changephoto button{
+  border: 1px solid #ccc;
+  background-color: white;
+  width: fit-content;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-self:center;
+}
+
+#changephoto>.yes:hover{
+  background-color: rgb(64, 135, 64);
+  color: white;
+}
+#changephoto >.no:hover{
+  background-color: rgb(147, 4, 4);
+  color: white;
+}
+
+#changephotocon{
+  background-color: rgba(173, 168, 168, 0.514);
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.uploadprofile>.fileContainer{
+  position: relative;
+}
+
+.file-input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.ProApp .uploadprofile{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: white;
+  gap: 10px;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.uploadprofile>.crossicon{
+  height: 35px;
+  width: 35px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 20%;
+  padding: 2px;
+  align-self: flex-end;
+}
+.uploadprofile>.crossicon:hover{
+  background-color: rgb(246, 62, 62);
+  color: white;
+}
+
+.uploadprofile >.upload{
+  border: 1px solid #ccc;
+  background-color:  #007bff;
+  border-radius: 5%;
+  padding: 8px 20px;
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.uploadprofile >.upload:hover{
+  background-color: #0056b3;
+}
+
+
+
+
+
+@media(max-width:850px){
+  .progrid>.imageContainer,.progrid .proimg {
+    height: 100px;
+    width: 100px;
+  }
+  .ProApp .prousername {
+    font-size: 1.1em;
+  }
+}

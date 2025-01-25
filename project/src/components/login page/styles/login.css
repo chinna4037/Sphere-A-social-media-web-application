@@ -1,0 +1,98 @@
+form{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    background-color: white;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width:400px;
+    border-radius: 2%;
+}
+form >*{
+  position: relative;
+}
+body{
+    background-color:rgb(237, 239, 240);
+}
+.g1{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-auto-rows: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.g1 >*{
+    align-self: center;
+    justify-self: center;
+}
+.but > button{
+    font-size:larger;
+    height: 40px;
+    width: 80px;
+    padding: 10px;
+    color:white; 
+    background-color:#89a7c7; 
+    margin:0px;
+    border:0px;
+}
+
+.but{
+    background-color:#89a7c7; 
+    height: 40px;
+    display: inline-block;
+    border-radius: 40%;
+}
+.login-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333333;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+    transition: color 0.3s ease;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+ .login {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login:hover {
+    background-color: #0056b3;
+  }

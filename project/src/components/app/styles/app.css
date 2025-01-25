@@ -1,0 +1,14 @@
+.grid{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.notscroll{
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3; 
+}
+
+
